@@ -6,7 +6,7 @@
 [ZOD__BADGE]: https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white
 [REACTHOOKFORM__BADGE]: https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white
 
-<h1 align="center" style="font-weight: bold; font-size:2.5rem;">✂️ BARBERSHOP: Modern Barbershop Landing Page</h1>
+<h1 align="center" style="font-weight: bold; font-size:2.5rem;">✂️ BARBERSHOP: Modern Barbershop Web App</h1>
 
 <p align="center">
   <a href="https://barbershop-sandy-ten.vercel.app/">🚀 Live Demo</a> &nbsp;•&nbsp;
@@ -40,7 +40,7 @@
 <h2 id="about">📌 About</h2>
 
 <p>
-A fully responsive, modern barbershop landing page built with Next.js 16, React 19, TypeScript, and Tailwind CSS v4. Designed from a professional Figma template, the site showcases barbershop services, customer testimonials, brand partners, and a contact form — delivering a premium web presence for any barbershop business.
+A fully responsive, modern barbershop website built with Next.js 16, React 19, TypeScript, and Tailwind CSS v4. Designed from a professional Figma template, the site showcases barbershop services, customer testimonials, brand partners, and a contact form — delivering a premium web presence for any barbershop business.
 </p>
 
 Key Features:
@@ -121,5 +121,3 @@ This project was built based on a professional Figma community template.
 | React Hook Form | Performant form state management |
 | Zod | Schema-based form validation |
 | clsx / tailwind-merge | Conditional class utilities |
-
-<h4>Check the <code>.env</code> file in the project root to see the environment variables used in the project.</h4>

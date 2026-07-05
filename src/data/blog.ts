@@ -30,4 +30,28 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Duis porta, ligula rhoncus euismod pretium, nisi tellus",
     image: "/images/barber-hero.jpg",
   },
+  {
+    id: 5,
+    title: "Mauris Dignissim",
+    excerpt: "Duis porta, ligula rhoncus euismod pretium, nisi tellus",
+    image: "/images/barber-hero.jpg",
+  },
+  {
+    id: 6,
+    title: "Nullam Quis",
+    excerpt: "Duis porta, ligula rhoncus euismod pretium, nisi tellus",
+    image: "/images/barber-hero.jpg",
+  },
+  {
+    id: 7,
+    title: "Vestibulum Ante",
+    excerpt: "Duis porta, ligula rhoncus euismod pretium, nisi tellus",
+    image: "/images/barber-hero.jpg",
+  },
+  {
+    id: 8,
+    title: "Phasellus Vitae",
+    excerpt: "Duis porta, ligula rhoncus euismod pretium, nisi tellus",
+    image: "/images/barber-hero.jpg",
+  },
 ];

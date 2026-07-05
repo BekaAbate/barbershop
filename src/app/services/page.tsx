@@ -6,10 +6,11 @@ import { services } from "@/data/services";
 import { Footer } from "@/components/Footer";
 import { servicePrices } from "@/data/servicePrice";
 import { ServicePriceCard } from "@/components/ui/ServicePriceCard";
-import { blogPosts } from "@/data/blog";
+import { BlogPost, blogPosts } from "@/data/blog";
 import BlogCard from "@/components/ui/BlogCard";
 
 export default function Services() {
+  const displayPosts: BlogPost[] = blogPosts.slice(0, 4);
   return (
     <>
       <div
@@ -60,7 +61,7 @@ export default function Services() {
           </h2>
         </div>
         <div className="grid grid-cols-4 gap-4 my-20">
-          {blogPosts.map((blogPost) => (
+          {displayPosts.map((blogPost) => (
             <BlogCard key={blogPost.id} {...blogPost} />
           ))}
         </div>

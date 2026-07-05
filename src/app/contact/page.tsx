@@ -1,5 +1,6 @@
 import { Banner } from "@/components/Banner";
 import Brands from "@/components/Brands";
+import ContactForm from "@/components/ContactForm";
 import Counter from "@/components/Counter";
 import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
@@ -30,8 +31,8 @@ export default function Contact() {
         }}
       >
         <div className="absolute inset-0 w-full backdrop-blur-sm bg-black/40"></div>
-        <div className="relative z-10 flex items-center justify-between px-2 sm:px-18 py-20">
-          <div className="flex flex-col items-center justify-center text-center">
+        <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between px-2 sm:px-18 py-20 gap-4">
+          <div className="flex flex-col items-center justify-center text-center lg:w-[50%]">
             <h2 className="font-serif text-white text-5xl mb-8">
               Come Visit Us
             </h2>
@@ -52,7 +53,9 @@ export default function Contact() {
             </p>
             <p className="font-sans text-white text-sm">Sunday 10am - 17pm</p>
           </div>
-          <form action=""></form>
+          <div className="max-sm:w-full lg:w-[50%]">
+            <ContactForm />
+          </div>
         </div>
       </div>
       <div className="bg-white px-2 sm:px-18 py-16">

@@ -45,7 +45,7 @@ export default function Services() {
         </div>
       </div>
       <div className="bg-counter px-2 sm:px-18 pb-16">
-        <div className="grid grid-cols-2 py-20 gap-10">
+        <div className="grid sm:grid-cols-2 py-20 gap-10">
           {servicePrices.map((service) => (
             <ServicePriceCard key={service.id} {...service} />
           ))}
@@ -60,7 +60,7 @@ export default function Services() {
             Latest News
           </h2>
         </div>
-        <div className="grid grid-cols-4 gap-4 my-20">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 my-20">
           {displayPosts.map((blogPost) => (
             <BlogCard key={blogPost.id} {...blogPost} />
           ))}

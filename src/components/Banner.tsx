@@ -5,7 +5,7 @@ export const Banner = () => {
   return (
     <div className="bg-primary h-100 flex items-center justify-between px-2 sm:px-18">
       <div className="flex flex-col items-start gap-4">
-        <h2 className="font-serif text-[70px] text-black uppercase">
+        <h2 className="font-serif text-[60px] sm:text-[70px] text-black uppercase">
           25% Discount
         </h2>
         <p className="font-sans font-normal text-sm opacity-80 text-black max-w-[540px]">

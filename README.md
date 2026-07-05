@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
+[REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
+[NEXTJS__BADGE]: https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[TAILWINDCSS__BADGE]: https://img.shields.io/badge/Tailwindcss-36b7f0?style=for-the-badge&logo=tailwindcss&logoColor=white
+[NPM__BADGE]: https://img.shields.io/badge/npm-c53535?style=for-the-badge&logo=npm&logoColor=white
+[ZOD__BADGE]: https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white
+[REACTHOOKFORM__BADGE]: https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge&logo=reacthookform&logoColor=white
 
-## Getting Started
+<h1 align="center" style="font-weight: bold; font-size:2.5rem;">✂️ BARBERSHOP: Modern Barbershop Landing Page</h1>
 
-First, run the development server:
+<p align="center">
+  <a href="https://www.figma.com/design/qNXZiNlAoGRAdz3QwczbgJ/Barbershop-Figma-Template--Community-?node-id=0-1&p=f&t=0xbPqLqADfr6OJ2h-0">🎨 View Figma Design</a>
+</p>
+
+<div align="center">
+
+![npm][NPM__BADGE]
+![nextjs][NEXTJS__BADGE]
+![react][REACT__BADGE]
+![typescript][TYPESCRIPT__BADGE]
+![tailwindcss][TAILWINDCSS__BADGE]
+![zod][ZOD__BADGE]
+![reacthookform][REACTHOOKFORM__BADGE]
+
+</div>
+
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#started">Getting Started</a> •
+ <a href="#routes">Application Routes</a>
+</p>
+
+<h2 id="about">📌 About</h2>
+
+<p>
+A fully responsive, modern barbershop landing page built with Next.js 16, React 19, TypeScript, and Tailwind CSS v4. Designed from a professional Figma template, the site showcases barbershop services, customer testimonials, brand partners, and a contact form — delivering a premium web presence for any barbershop business.
+</p>
+
+Key Features:
+
+=> <span style='font-weight:700;'>Hero Section</span>: Full-screen background with logo overlay and a compelling call to action.
+
+=> <span style='font-weight:700;'>Services Showcase</span>: Dynamic service cards pulled from a centralized data source, with an "Explore Now" CTA.
+
+=> <span style='font-weight:700;'>Statistics Counter</span>: Animated counters highlighting key business milestones.
+
+=> <span style='font-weight:700;'>Banner / Promo Section</span>: Eye-catching promotional banner for special offers.
+
+=> <span style='font-weight:700;'>Testimonials</span>: Customer reviews section to build trust and credibility.
+
+=> <span style='font-weight:700;'>Brand Partners</span>: Logos of affiliated and partner brands.
+
+=> <span style='font-weight:700;'>Contact Form</span>: Validated contact form built with React Hook Form and Zod schema validation.
+
+=> <span style='font-weight:700;'>Responsive UI</span>: Mobile-first design with a dedicated mobile navigation drawer.
+
+=> <span style='font-weight:700;'>Blog Section</span>: Dedicated blog page for articles and updates.
+
+<h2 id="started">🚀 Getting Started</h2>
+
+<h3>Prerequisites</h3>
+
+- [Node.js](https://nodejs.org) (v18 or higher recommended)
+- [Git](https://git-scm.com/downloads)
+- [npm](https://www.npmjs.com)
+
+<h3>Cloning</h3>
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/BekaAbate/barbershop.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h3>Installing & Running</h3>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd barbershop
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-## Learn More
+<h3>Building for Production</h3>
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2 id="routes">📍 Application Routes</h2>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Route | Description |
+| ----- | ----------- |
+| <kbd>/</kbd> | Home page — Hero, Services, Counter, Banner, Testimonials, Brands |
+| <kbd>/about</kbd> | About page — barbershop story and team |
+| <kbd>/services</kbd> | Full services listing page |
+| <kbd>/blog</kbd> | Blog page — articles and updates |
+| <kbd>/contact</kbd> | Contact page with validated form |
 
-## Deploy on Vercel
+<h2>🎨 Design</h2>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project was built based on a professional Figma community template.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👉 [View the Figma Design](https://www.figma.com/design/qNXZiNlAoGRAdz3QwczbgJ/Barbershop-Figma-Template--Community-?node-id=0-1&p=f&t=0xbPqLqADfr6OJ2h-0)
+
+<h2>🛠️ Tech Stack</h2>
+
+| Technology | Purpose |
+| ---------- | ------- |
+| Next.js 16 | Full-stack React framework with App Router |
+| React 19 | UI component library |
+| TypeScript | Static typing |
+| Tailwind CSS v4 | Utility-first styling |
+| React Hook Form | Performant form state management |
+| Zod | Schema-based form validation |
+| clsx / tailwind-merge | Conditional class utilities |
+
+<h4>Check the <code>.env</code> file in the project root to see the environment variables used in the project.</h4>

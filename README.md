@@ -9,6 +9,7 @@
 <h1 align="center" style="font-weight: bold; font-size:2.5rem;">✂️ BARBERSHOP: Modern Barbershop Landing Page</h1>
 
 <p align="center">
+  <a href="https://barbershop-sandy-ten.vercel.app/">🚀 Live Demo</a> &nbsp;•&nbsp;
   <a href="https://www.figma.com/design/qNXZiNlAoGRAdz3QwczbgJ/Barbershop-Figma-Template--Community-?node-id=0-1&p=f&t=0xbPqLqADfr6OJ2h-0">🎨 View Figma Design</a>
 </p>
 
@@ -28,6 +29,12 @@
  <a href="#about">About</a> •
  <a href="#started">Getting Started</a> •
  <a href="#routes">Application Routes</a>
+</p>
+
+<p align="center">
+  <a href="https://barbershop-sandy-ten.vercel.app/">
+    <img src="./public/images/hero-preview.png" alt="Barbershop Hero Section Preview" width="100%" />
+  </a>
 </p>
 
 <h2 id="about">📌 About</h2>

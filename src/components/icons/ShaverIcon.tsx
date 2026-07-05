@@ -1,0 +1,42 @@
+interface IconProps {
+  className?: string;
+}
+export default function ShaverIcon({ className }: IconProps) {
+  return (
+    <svg
+      viewBox="0 0 42 74"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M36.178 1H5C2.79086 1 1 2.79086 1 5V9.498C1 11.7071 2.79086 13.498 5 13.498H36.178C38.3871 13.498 40.178 11.7071 40.178 9.498V5C40.178 2.79086 38.3871 1 36.178 1Z"
+        stroke="#E9C664"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M5.40405 7.24902H35.7741"
+        stroke="#E9C664"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M8.60999 13.498C8.59988 14.9808 9.17909 16.4069 10.2202 17.4626C11.2614 18.5184 12.6792 19.1174 14.162 19.128H27.016C28.4987 19.1174 29.9166 18.5184 30.9578 17.4626C31.9989 16.4069 32.5781 14.9808 32.568 13.498V13.498"
+        stroke="#E9C664"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M25.0671 19.125V69.075C24.9955 70.1634 24.4967 71.1794 23.6792 71.9015C22.8618 72.6236 21.792 72.9933 20.7031 72.93C19.6144 72.9931 18.5448 72.6232 17.7276 71.9011C16.9104 71.179 16.4116 70.1632 16.3401 69.075V19.125"
+        stroke="#E9C664"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}

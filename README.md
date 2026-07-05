@@ -114,5 +114,3 @@ This project was built based on a professional Figma community template.
 | React Hook Form | Performant form state management |
 | Zod | Schema-based form validation |
 | clsx / tailwind-merge | Conditional class utilities |
-
-<h4>Check the <code>.env</code> file in the project root to see the environment variables used in the project.</h4>
